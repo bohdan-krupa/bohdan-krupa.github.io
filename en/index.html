@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Bohdan Krupa - Young developer</title>
+<meta name="description" content="My name is Bohdan, I really love to learn something new and not get stuck on one. That's why I chose my way - to be a programmer. It's very exciting, I can create everything that comes to my head, and it's cool. So it's a pretty creative and developing profession.">
+<meta name="author" content="Bohdan Krupa">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<meta name="theme-color" content="#7BC3D1" />
+<meta name="msapplication-navbutton-color" content="#7BC3D1" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#7BC3D1" />
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122318576-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122318576-1');
+</script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Hello, I'm <span class="name">Bohdan Krupa</span></h1>
+          <p>Young developer</p>
+          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Bohdan Krupa</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"><a href="#page-top"></a></li>
+          <li><a class="page-scroll" href="#about">About</a></li>
+          <li><a class="page-scroll" href="#skills">Skills</a></li>
+          <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+          <li><a class="page-scroll" href="#resume">Education</a></li>
+          <li><a class="page-scroll" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="/assets/img/about.jpg" class="img-responsive">
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>My name is Bohdan, I really love to learn something new and not get stuck on one. That's why I chose my way - to be a programmer. It's very exciting, I can create everything that comes to my head, and it's cool. So it's a pretty creative and developing profession.</p>
+          <p>About 13 years old I began to write the code and so I was carried away by this. At the moment, I have learned a lot of topical technologies and programming languages, which you can glance below</p>
+          <p>If you want to ask me something, all the contacts are listed below...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Skills</h2>
+      <hr />
+    </div>
+    <div class="row">
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Python</h4>
+        <img src="/assets/img/icons/python.svg" alt="Python">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>HTML</h4>
+        <img src="/assets/img/icons/html.svg" alt="HTML">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>CSS</h4>
+        <img src="/assets/img/icons/css.svg" alt="CSS">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>SASS</h4>
+        <img src="/assets/img/icons/sass.svg" alt="SASS">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>JS</h4>
+        <img src="/assets/img/icons/javascript.svg" alt="JavaScript">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Vue</h4>
+        <img src="/assets/img/icons/vue.svg" alt="Vue">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Nuxt</h4>
+        <img src="/assets/img/icons/nuxt.svg" alt="Nuxt">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>React</h4>
+        <img src="/assets/img/icons/react.svg" alt="React">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Firebase</h4>
+        <img src="/assets/img/icons/firebase.svg" alt="Firebase">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>jQuery</h4>
+        <img src="/assets/img/icons/jquery.svg" alt="jQuery">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Node</h4>
+        <img src="/assets/img/icons/node.svg" alt="Node">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Jekyll</h4>
+        <img src="/assets/img/icons/jekyll.svg" alt="Jekyll">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Gulp</h4>
+        <img src="/assets/img/icons/gulp.svg" alt="Gulp">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Git</h4>
+        <img src="/assets/img/icons/git.svg" alt="Git">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>PHP</h4>
+        <img src="/assets/img/icons/php.svg" alt="PHP">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>SQL</h4>
+        <img src="/assets/img/icons/sql.svg" alt="SQL">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Unity</h4>
+        <img src="/assets/img/icons/unity.svg" alt="Unity">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>C#</h4>
+        <img src="/assets/img/icons/cs.svg" alt="C#">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>C/C++</h4>
+        <img src="/assets/img/icons/c++.svg" alt="C/C++">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Java</h4>
+        <img src="/assets/img/icons/java.svg" alt="Java">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>AWS</h4>
+        <img src="/assets/img/icons/aws.svg" alt="AWS">
+      </div>
+
+      <div v-for="skill in skills" class="col-md-2 col-sm-3 col-xs-6 skill">
+        <h4>Linux</h4>
+        <img src="/assets/img/icons/linux.svg" alt="Linux">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <a href="//xedrum.com">
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <div class="hover-text">
+                  <h4>Xedrum</h4>
+                  <small>Web Development</small>
+                </div>
+                <img src="/assets/img/portfolio/xedrum.png" class="img-responsive" alt="Xedrum">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="//lapresco.com">
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <div class="hover-text">
+                  <h4>La Presco</h4>
+                  <small>Web Development</small>
+                </div>
+                <img src="/assets/img/portfolio/lapresco.png" class="img-responsive" alt="La Presco">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="//bohdan-krupa.github.io/xedrum-shop">
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <div class="hover-text">
+                  <h4>Xedrum Shop</h4>
+                  <small>Web Development</small>
+                </div>
+                <img src="/assets/img/portfolio/xedrum-shop.png" class="img-responsive" alt="Xedrum Shop">
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="//solomiyamarkiv.github.io">
+          <div class="col-sm-6 col-md-3 col-lg-3">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <div class="hover-text">
+                  <h4>Photo Lib</h4>
+                  <small>Web Development</small>
+                </div>
+                <img src="/assets/img/portfolio/photo-lib.png" class="img-responsive" alt="Photo Lib">
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Achievements Section -->
+<div id="achievements" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Some stats</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay="300ms">
+        <div class="achievement-box">
+          <span class="count">-1001</span>
+          <h4>Laziness</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay="300ms">
+        <div class="achievement-box">
+          <span class="count" id="years-of-studing"></span>
+          <h4>Years of study</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Resume Section -->
+<div id="resume" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Education</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          
+          <!-- Education Section-->
+          <li>
+            <div class="timeline-image">
+              <h4>2020<br />-<br />2017</h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Institute of Business and Inovative Technologies of Lviv Polytechnic Nationnal University</h4>
+                <h4 class="subheading">Student</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Now I'm studying at this institution. During years of study I studied Python, Django, C/C++, OOP, Linux, SQL, AWS, Networks and many more.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>2019<br />-<br />2012</h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Secondary School 96</h4>
+                <h4 class="subheading">Schoolboy</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Already graduated from this school. Studied well. Was in the lyceum class</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>2012<br />-<br />2008</h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>General School "Pervotsvit"</h4>
+                <h4 class="subheading">Pupil</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">School as a school. The first 4 classes were taught there. It was fun</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact</h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4">
+        <i class="fa fa-map-marker fa-2x"></i>
+        <p>Ukraine, Lviv</p>
+        <br/ ><br/ >
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-envelope-o fa-2x"></i>
+        <p>bodya.save.dev@gmail.com</p>
+        <br/ ><br/ >
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-phone fa-2x"></i>
+        <p>+380 96 665 1469</p>
+        <br/ ><br/ >
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="social">
+        <ul>
+          <li><a href="https://www.instagram.com/bodya_save_dev" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://github.com/bohdan-krupa" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyrigh &copy; 2018-<script>document.write(new Date().getFullYear())</script>&ensp;&ensp;&ensp;Created by Bohdan Krupa</p>
+    </div>
+  </div>
+</div>
+
+
+<script src="/assets/js/jquery.1.11.1.js"></script>
+<!-- For live numbers -->
+<script src="/assets/js/jquery.counterup.js"></script>
+<script src="/assets/js/waypoints.js"></script>
+<!-- Main -->
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
